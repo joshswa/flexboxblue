@@ -61,7 +61,9 @@ img{
 .cards{
     display: flex;
      background-color: #9abeff;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    min-height: 300px;
     
 }
 .card{
@@ -71,8 +73,9 @@ img{
     padding: 15px 20px;
     display:flex ;
     flex-direction: column;
-    flex-basis: 20px;
+    flex-basis: 170px;
     flex-wrap: wrap;
+    height: 200px;
 }
 
 h3{
@@ -81,5 +84,6 @@ h3{
 
 .card p{
     font-size: 0.80rem;
-    line-height: 2rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
 }
