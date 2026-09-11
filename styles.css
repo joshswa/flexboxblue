@@ -15,9 +15,39 @@ nav{
     justify-content: space-between;
     background-color: #676eff;
     line-height: 3.5rem;
+    font-weight: 800;
+    padding: 0 20px 0 20px;
+}
+
+.heroContainer{
+    background-color: #3a43f5;
+  
+}
+
+.hero{
+    max-width: 760px;
+    
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+   /*  
+    justify-content: center; */
 }
 
 ul{
     display: flex;
-    text-decoration: none;
+    text-decoration: none;    
+    list-style-type: none;
+}
+
+ul a{
+    padding-right: 20px;
+    
+}
+
+img{
+    width: 250px;
+    height: 290px;
 }
